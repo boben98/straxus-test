@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/straxus-test%7D/static/js/main.865314ab.chunk.js",
+    "main.js.map": "/straxus-test%7D/static/js/main.865314ab.chunk.js.map",
+    "runtime-main.js": "/straxus-test%7D/static/js/runtime-main.e62e3e83.js",
+    "runtime-main.js.map": "/straxus-test%7D/static/js/runtime-main.e62e3e83.js.map",
+    "static/js/2.7eaebae0.chunk.js": "/straxus-test%7D/static/js/2.7eaebae0.chunk.js",
+    "static/js/2.7eaebae0.chunk.js.map": "/straxus-test%7D/static/js/2.7eaebae0.chunk.js.map",
+    "index.html": "/straxus-test%7D/index.html",
+    "static/js/2.7eaebae0.chunk.js.LICENSE.txt": "/straxus-test%7D/static/js/2.7eaebae0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e62e3e83.js",
+    "static/js/2.7eaebae0.chunk.js",
+    "static/js/main.865314ab.chunk.js"
+  ]
+}
