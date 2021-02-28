@@ -1,15 +1,15 @@
-Date : 2021-02-28 21:55:00
+Date : 2021-03-01 00:39:23
 Directory : c:\Users\Boros Bence\Documents\Meló\Straxus_test
-Total : 16 files,  17397 codes, 10 comments, 106 blanks, all 17513 lines
+Total : 16 files,  17743 codes, 11 comments, 113 blanks, all 17867 lines
 
 Languages
 +------------------+------------+------------+------------+------------+------------+
 | language         | files      | code       | comment    | blank      | total      |
 +------------------+------------+------------+------------+------------+------------+
-| JSON             |          2 |     16,786 |          0 |          2 |     16,788 |
-| JavaScript React |          6 |        340 |          0 |         36 |        376 |
-| CSS              |          1 |        151 |          0 |         23 |        174 |
-| JavaScript       |          5 |         70 |          0 |         11 |         81 |
+| JSON             |          2 |     16,971 |          0 |          2 |     16,973 |
+| JavaScript React |          6 |        493 |          1 |         42 |        536 |
+| CSS              |          1 |        152 |          0 |         23 |        175 |
+| JavaScript       |          5 |         77 |          0 |         12 |         89 |
 | Markdown         |          1 |         38 |          0 |         33 |         71 |
 | HTML             |          1 |         12 |         10 |          1 |         23 |
 +------------------+------------+------------+------------+------------+------------+
@@ -18,12 +18,12 @@ Directories
 +-----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
 | path                                                                              | files      | code       | comment    | blank      | total      |
 +-----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
-| .                                                                                 |         16 |     17,397 |         10 |        106 |     17,513 |
-| public                                                                            |          2 |        163 |         10 |         24 |        197 |
-| src                                                                               |         11 |        410 |          0 |         47 |        457 |
-| src\Actions                                                                       |          1 |         23 |          0 |          4 |         27 |
-| src\Components                                                                    |          5 |        275 |          0 |         29 |        304 |
-| src\Reducers                                                                      |          4 |         47 |          0 |          7 |         54 |
+| .                                                                                 |         16 |     17,743 |         11 |        113 |     17,867 |
+| public                                                                            |          2 |        164 |         10 |         24 |        198 |
+| src                                                                               |         11 |        570 |          1 |         54 |        625 |
+| src\Actions                                                                       |          1 |         28 |          0 |          5 |         33 |
+| src\Components                                                                    |          5 |        428 |          1 |         35 |        464 |
+| src\Reducers                                                                      |          4 |         49 |          0 |          7 |         56 |
 +-----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
 
 Files
@@ -31,20 +31,20 @@ Files
 | filename                                                                          | language         | code       | comment    | blank      | total      |
 +-----------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
 | c:\Users\Boros Bence\Documents\Meló\Straxus_test\README.md                        | Markdown         |         38 |          0 |         33 |         71 |
-| c:\Users\Boros Bence\Documents\Meló\Straxus_test\package-lock.json                | JSON             |     16,742 |          0 |          1 |     16,743 |
-| c:\Users\Boros Bence\Documents\Meló\Straxus_test\package.json                     | JSON             |         44 |          0 |          1 |         45 |
-| c:\Users\Boros Bence\Documents\Meló\Straxus_test\public\index.css                 | CSS              |        151 |          0 |         23 |        174 |
+| c:\Users\Boros Bence\Documents\Meló\Straxus_test\package-lock.json                | JSON             |     16,921 |          0 |          1 |     16,922 |
+| c:\Users\Boros Bence\Documents\Meló\Straxus_test\package.json                     | JSON             |         50 |          0 |          1 |         51 |
+| c:\Users\Boros Bence\Documents\Meló\Straxus_test\public\index.css                 | CSS              |        152 |          0 |         23 |        175 |
 | c:\Users\Boros Bence\Documents\Meló\Straxus_test\public\index.html                | HTML             |         12 |         10 |          1 |         23 |
-| c:\Users\Boros Bence\Documents\Meló\Straxus_test\src\Actions\index.js             | JavaScript       |         23 |          0 |          4 |         27 |
-| c:\Users\Boros Bence\Documents\Meló\Straxus_test\src\Components\Header.jsx        | JavaScript React |         23 |          0 |          3 |         26 |
+| c:\Users\Boros Bence\Documents\Meló\Straxus_test\src\Actions\index.js             | JavaScript       |         28 |          0 |          5 |         33 |
+| c:\Users\Boros Bence\Documents\Meló\Straxus_test\src\Components\Header.jsx        | JavaScript React |         33 |          0 |          3 |         36 |
 | c:\Users\Boros Bence\Documents\Meló\Straxus_test\src\Components\Play.jsx          | JavaScript React |         60 |          0 |          7 |         67 |
-| c:\Users\Boros Bence\Documents\Meló\Straxus_test\src\Components\Playfield.jsx     | JavaScript React |         23 |          0 |          4 |         27 |
-| c:\Users\Boros Bence\Documents\Meló\Straxus_test\src\Components\QuestionTable.jsx | JavaScript React |         32 |          0 |          4 |         36 |
-| c:\Users\Boros Bence\Documents\Meló\Straxus_test\src\Components\Questions.jsx     | JavaScript React |        137 |          0 |         11 |        148 |
+| c:\Users\Boros Bence\Documents\Meló\Straxus_test\src\Components\Playfield.jsx     | JavaScript React |        151 |          1 |         10 |        162 |
+| c:\Users\Boros Bence\Documents\Meló\Straxus_test\src\Components\QuestionTable.jsx | JavaScript React |         34 |          0 |          4 |         38 |
+| c:\Users\Boros Bence\Documents\Meló\Straxus_test\src\Components\Questions.jsx     | JavaScript React |        150 |          0 |         11 |        161 |
 | c:\Users\Boros Bence\Documents\Meló\Straxus_test\src\Reducers\index.js            | JavaScript       |         10 |          0 |          3 |         13 |
 | c:\Users\Boros Bence\Documents\Meló\Straxus_test\src\Reducers\name.js             | JavaScript       |          9 |          0 |          2 |         11 |
-| c:\Users\Boros Bence\Documents\Meló\Straxus_test\src\Reducers\point.js            | JavaScript       |          9 |          0 |          1 |         10 |
+| c:\Users\Boros Bence\Documents\Meló\Straxus_test\src\Reducers\point.js            | JavaScript       |         11 |          0 |          1 |         12 |
 | c:\Users\Boros Bence\Documents\Meló\Straxus_test\src\Reducers\questions.js        | JavaScript       |         19 |          0 |          1 |         20 |
 | c:\Users\Boros Bence\Documents\Meló\Straxus_test\src\index.jsx                    | JavaScript React |         65 |          0 |          7 |         72 |
-| Total                                                                             |                  |     17,397 |         10 |        106 |     17,513 |
+| Total                                                                             |                  |     17,743 |         11 |        113 |     17,867 |
 +-----------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
