@@ -47,7 +47,7 @@ class Play extends Component {
           <h2>You have no questions added</h2>
           <button
             className="mybutton"
-            onClick={() => this.props.history.push("/questions")}
+            onClick={() => this.props.history.push("/straxus-test/questions")}
           >
             Add questions
           </button>

@@ -26,8 +26,12 @@ function Quiz() {
           }}
         >
           <Switch>
-            <Route exact path="/" render={() => <Play />} />
-            <Route exact path="/questions" render={() => <Questions />} />
+            <Route exact path="/straxus-test" render={() => <Play />} />
+            <Route
+              exact
+              path="/straxus-test/questions"
+              render={() => <Questions />}
+            />
           </Switch>
         </div>
         <footer>
