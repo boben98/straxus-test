@@ -76,9 +76,7 @@ class Playfield extends Component {
               </button>{" "}
               <button
                 className="mybutton"
-                onClick={() =>
-                  this.props.history.push("/straxus-test/questions")
-                }
+                onClick={() => this.props.history.push("/questions")}
               >
                 Add questions
               </button>

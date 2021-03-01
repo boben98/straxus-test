@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Play from "./Components/Play";
@@ -10,6 +10,7 @@ import { Provider } from "react-redux";
 import { persistStore, persistReducer } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 import { PersistGate } from "redux-persist/integration/react";
+import "./index.css";
 
 function Quiz() {
   return (
@@ -26,12 +27,8 @@ function Quiz() {
           }}
         >
           <Switch>
-            <Route exact path="/straxus-test" render={() => <Play />} />
-            <Route
-              exact
-              path="/straxus-test/questions"
-              render={() => <Questions />}
-            />
+            <Route exact path="/" render={() => <Play />} />
+            <Route exact path="/questions" render={() => <Questions />} />
           </Switch>
         </div>
         <footer>

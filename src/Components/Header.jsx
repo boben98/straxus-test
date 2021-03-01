@@ -8,8 +8,8 @@ function Header(props) {
     <div className="header">
       <button
         className="mode"
-        disabled={window.location.pathname === "/straxus-test" ? "true" : ""}
-        onClick={() => props.history.push("/straxus-test")}
+        disabled={window.location.pathname === "/" ? "true" : ""}
+        onClick={() => props.history.push("/")}
       >
         Play
       </button>
@@ -23,10 +23,8 @@ function Header(props) {
       </h1>
       <button
         className="mode"
-        disabled={
-          window.location.pathname === "/straxus-test/questions" ? "true" : ""
-        }
-        onClick={() => props.history.push("/straxus-test/questions")}
+        disabled={window.location.pathname === "/questions" ? "true" : ""}
+        onClick={() => props.history.push("/questions")}
       >
         Questions
       </button>
